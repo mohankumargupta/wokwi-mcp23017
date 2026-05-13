@@ -13,3 +13,11 @@ zig:
 wat:
     wasm2wat chip.wasm
 
+#version needs to be in form v0.0.1
+release version:
+    git tag {{ version }}
+    git push origin {{ version }}
+
+delete_release version:
+    git tag -d {{ version }}
+    git push origin --delete {{ version }}

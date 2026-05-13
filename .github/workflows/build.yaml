@@ -2,6 +2,8 @@ name: Build Chip
 on:
   push:
   workflow_dispatch:
+permissions:
+  contents: write
 jobs:
   build:
     name: Build
