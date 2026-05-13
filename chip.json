@@ -1,6 +1,7 @@
 {
   "name": "mcp23017",
   "author": "Mohan Gupta",
+  "docs": "https://github.dev/mohankumargupta/wokwi-mcp23017/README.md",
   "pins": [
       "GPB0",
       "GPB1",
