@@ -12,8 +12,8 @@ esp32:
   framework:
     type: esp-idf
 
-logger:
-  hardware_uart: UART0
+# logger:
+#   hardware_uart: UART0
 
 # 1. Configure the I2C Bus using the pins from diagram.json
 i2c:
